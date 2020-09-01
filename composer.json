@@ -1,20 +1,16 @@
 {
     "name": "pattern/statamic-business-mode",
     "description": "Business mode for Statamic CMS",
+    "type": "statamic-addon",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4",
+        "statamic/cms": "^3.0"
+    },
     "autoload": {
         "psr-4": {
             "Pattern\\BusinessMode\\": "src"
         }
-    },
-    "authors": [
-        {
-            "name": "Pattern",
-            "email": "hello@pttrn.co",
-            "homepage": "https://pttrn.co"
-        }
-    ],
-    "support": {
-        "email": "hello@pttrn.co"
     },
     "extra": {
         "statamic": {
