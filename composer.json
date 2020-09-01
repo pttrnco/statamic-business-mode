@@ -1,0 +1,30 @@
+{
+    "name": "pattern/statamic-business-mode",
+    "description": "Business mode for Statamic CMS",
+    "autoload": {
+        "psr-4": {
+            "Pattern\\BusinessMode\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Pattern",
+            "email": "hello@pttrn.co",
+            "homepage": "https://pttrn.co"
+        }
+    ],
+    "support": {
+        "email": "hello@pttrn.co"
+    },
+    "extra": {
+        "statamic": {
+            "name": "Business Mode",
+            "description": "Removes 'rad mode' from your CP login pages"
+        },
+        "laravel": {
+            "providers": [
+                "Pattern\\BusinessMode\\ServiceProvider"
+            ]
+        }
+    }
+}
