@@ -4,7 +4,6 @@
     "type": "statamic-addon",
     "license": "MIT",
     "require": {
-        "php": "^7.4",
         "statamic/cms": "^3.0"
     },
     "autoload": {
